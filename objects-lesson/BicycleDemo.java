@@ -1,32 +1,37 @@
-class Bicycle {
-    int cadence = 0;
-    int speed = 0;
-    int gear = 1;
-
-    void changeCadence(int newValue) {
-        cadence = newValue;
-    }
-
-    void changeGear(int newValue) {
-        gear = newValue;
-    }
-
-    void speedUp(int increment) {
-        speed = speed + increment;
-    }
-
-    void applyBrakes(int decrement) {
-        speed = speed - decrement;
-    }
-
-    void printStates() {
-        System.out.println("cadence: " +
-            cadence + " speed: " +
-            speed + " gear: " + gear);
-    }
-}
-
 class BicycleDemo {
+
+    class Bicycle {
+        private int cadence = 0;
+        private int speed = 0;
+        private int gear = 1;
+
+        public void changeCadence(int newValue) {
+            this.cadence = newValue;
+        }
+
+        public void changeGear(int newValue) {
+            this.gear = newValue;
+        }
+
+        public void speedUp(int increment) {
+            this.speed = speed + increment;
+        }
+
+        public void applyBrakes(int decrement) {
+            this.speed = speed - decrement;
+        }
+
+        public void printStates() {
+            System.out.println("cadence: " +
+                    this.cadence + " speed: " +
+                    this.speed + " gear: " + this.gear);
+        }
+    }
+
+    class MountainBike extends Bicycle {
+        // some awesome stuff here
+    }
+
     public static void main(String[] args) {
         //Create two different
         //Bicycle objects
