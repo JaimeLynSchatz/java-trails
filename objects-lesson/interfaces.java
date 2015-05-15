@@ -37,3 +37,13 @@ class ACMEBicycle implements Bicycle {
     speed = speed - decrement;
   }
 
+  void printStates() {
+    System.out.println("cadence:" +
+      cadence + " speed:" +
+      speed + " gear:" + gear);
+  }
+}
+
+// Note: to compile the ACMEBicycle class, you'll need to
+// add the public keyword to the beginning of the
+// implemented interface methods.
