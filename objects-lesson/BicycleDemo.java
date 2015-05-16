@@ -4,6 +4,8 @@ class BicycleDemo {
         private int cadence = 0;
         private int speed = 0;
         private int gear = 1;
+        private String color = "primer";
+        private String owner = "";
 
         public void changeCadence(int newValue) {
             this.cadence = newValue;
@@ -21,10 +23,22 @@ class BicycleDemo {
             this.speed = speed - decrement;
         }
 
+        public void paintBike(String color) {
+            this.color = color;
+        }
+
+        public void registerOwner(String owner) {
+            this.owner = owner;
+        }
+
         public void printStates() {
             System.out.println("cadence: " +
                     this.cadence + " speed: " +
                     this.speed + " gear: " + this.gear);
+        }
+
+        public void identifyBike() {
+            System.out.println("Bike color: " + color ", owned by " + owner);
         }
     }
 

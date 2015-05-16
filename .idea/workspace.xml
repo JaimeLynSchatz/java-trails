@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2f7b3db-fca2-434c-9f38-ef55ddceb286" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/objects-lesson/Bicycle.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objects-lesson/BicycleDemo.java" afterPath="$PROJECT_DIR$/objects-lesson/BicycleDemo.java" />
     </list>
     <ignored path="java-trails.iws" />
@@ -27,9 +26,20 @@
       <file leaf-file-name="BicycleDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/objects-lesson/BicycleDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5181347">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-              <folding />
+            <state vertical-scroll-proportion="0.82901555">
+              <caret line="40" column="77" selection-start-line="40" selection-start-column="77" selection-end-line="40" selection-end-column="77" />
+              <folding>
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+                <element signature="e#785#786#0" expanded="true" />
+                <element signature="e#1020#1021#0" expanded="true" />
+                <element signature="e#1108#1109#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,8 +66,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="12" />
-    <option name="y" value="40" />
+    <option name="x" value="10" />
+    <option name="y" value="55" />
     <option name="width" value="1260" />
     <option name="height" value="701" />
   </component>
@@ -286,7 +296,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="40" width="1260" height="701" extended-state="0" />
+    <frame x="10" y="55" width="1260" height="701" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -328,9 +338,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/objects-lesson/BicycleDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5181347">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
+        <state vertical-scroll-proportion="0.82901555">
+          <caret line="40" column="77" selection-start-line="40" selection-start-column="77" selection-end-line="40" selection-end-column="77" />
+          <folding>
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
