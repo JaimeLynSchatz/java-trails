@@ -38,7 +38,7 @@ class BicycleDemo {
         }
 
         public void identifyBike() {
-            System.out.println("Bike color: " + color ", owned by " + owner);
+            System.out.println("Bike color: " + this.color + ", owned by " + this.owner);
         }
     }
 

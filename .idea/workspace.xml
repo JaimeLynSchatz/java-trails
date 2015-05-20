@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2f7b3db-fca2-434c-9f38-ef55ddceb286" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objects-lesson/BicycleDemo.java" afterPath="$PROJECT_DIR$/objects-lesson/BicycleDemo.java" />
-    </list>
+    <list default="true" id="c2f7b3db-fca2-434c-9f38-ef55ddceb286" name="Default" comment="" />
     <ignored path="java-trails.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
